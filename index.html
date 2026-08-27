@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dropdown Menu</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="logo">PULSE.</div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <button class="nav-button">Пространство</button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-button">Проекты</button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-button">Команды</button>
+          </li>
+        </ul>
+      </nav>
+      <div class="profile">
+        <button class="profile-button">
+          <img class="profile-button__img"
+              src="./img/avatar.png"
+              height="54"
+              width="54"
+              alt="Avatar">
+              Антон
+        </button>
+        <div class="profile-dropdown">
+          <header class="dropdown__header">
+            <img class="profile-button__img"
+                src="./img/avatar.png"
+                height="54"
+                width="54"
+                alt="Avatar">
+            <div class="dropdown-info">
+              <b class="dropdown-info__name">Антон Смирнов</b>
+              <span class="profile-dropdown__job-title">Креативный директор</span>
+            </div>
+          </header>
+          <nav class="dropdown-nav">
+            <ul class="dropdown-list">
+              <li class="dropdown-list__item">
+                <a href="#" class="dropdown-list__link">Профиль</a>
+              </li>
+              <li class="dropdown-list__item">
+                <a href="#" class="dropdown-list__link">Уведомления<span class="dropdown-noty">8</span></a>
+              </li>
+              <li class="dropdown-list__item">
+                <a href="#" class="dropdown-list__link">Внешний вид</a>
+              </li>
+              <li class="dropdown-list__item">
+                <a href="#" class="dropdown-list__link">Оплата</a>
+              </li>
+              <li class="dropdown-list__item">
+                <a href="#" class="dropdown-list__link">Выйти</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <h1 class="title">Твори<br/>без<br/>лимитов</h1>
+      <p class="descr">Идеи заслуживают смелого воплощения.<br/>Сотрудничайте со своей командой, черпайте<br/>вдохновение и выполняйте творческую работу быстрее.</p>
+      <button class="start-button">Начать проект</button>
+    </main>
+    <aside class="aside">
+      <ul class="aside-list">
+        <li class="aside-list__item">
+          <b>52</b>
+          <span>Активных задачи</span>
+        </li>
+        <li class="aside-list__item">
+          <b>18</b>
+          <span>Членов команды онлайн</span>
+        </li>
+        <li class="aside-list__item">
+          <b>92%</b>
+          <span>Еженедельных целей закрыто</span>
+        </li>
+      </ul>
+    </aside>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
